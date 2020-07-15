@@ -52,7 +52,7 @@ void loop() {
     return;
   }
 
-  //thresh 23
+  //thresh 27 
   if (distance <= 27) {
     Esp8266Alert_AlertThresholdCross alert Esp8266Alert_AlertThresholdCross_init_zero;
     alert.crossed_thresh = distance;
