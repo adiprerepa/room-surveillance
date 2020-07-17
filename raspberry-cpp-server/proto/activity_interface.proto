@@ -1,0 +1,6 @@
+syntax="proto2";
+package Esp8266Alert;
+
+message AlertThresholdCross {
+  required int64 crossed_thresh = 1;
+}
