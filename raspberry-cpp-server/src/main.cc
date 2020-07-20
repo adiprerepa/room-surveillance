@@ -30,7 +30,8 @@ int main() {
         string recv_str = buf;
         cout << "got connection & message from " << inet_ntoa(client.sin_addr) << endl;
         Esp8266Alert::AlertThresholdCross alert;
-        alert.ParseFromString(recv_str);
-        cout << alert.crossed_thresh() << endl;
+        if (alert.ParseFromString(recv_str)) {
+            cout << alert.crossed_thresh() << endl;
+        }
     }
 }

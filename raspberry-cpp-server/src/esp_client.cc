@@ -24,8 +24,8 @@ namespace esp {
         struct sockaddr_in server{};
         bzero(&server, sizeof(server));
         server.sin_family = AF_INET;
-        server.sin_port = port;
-        server.sin_addr.s_addr = htonl(INADDR_ANY);
+        server.sin_port = htons(port);
+        server.sin_addr.s_addr = htons(INADDR_ANY);
         if (bind(fd_listen, (struct sockaddr *)&server, sizeof(struct sockaddr)) == -1) {
             utils::err("unable to bind");
         }
