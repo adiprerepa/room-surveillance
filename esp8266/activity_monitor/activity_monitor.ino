@@ -1,4 +1,4 @@
-#include "ActivityInterface.pb.h"
+#include "activity_interface.pb.h"
 #include "pb_common.h"
 #include "pb.h"
 #include "pb_encode.h"
@@ -10,7 +10,7 @@ const int echoPin = 0;
 const char* ssid = "onhub";
 const char* password = "ekchotaghar";
 const char* addr = "192.168.88.245";
-const uint16_t port = 42069;
+const uint16_t port = 3570;
 
 WiFiClient client;
 
@@ -21,7 +21,7 @@ void setup() {
   WiFi.mode(WIFI_STA);
   WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED) {
-    Serial.println("trying to connect...");
+    Serial.println("trying to connect..."); 
     delay(500);
   }
   Serial.println("Connected to WiFi!");

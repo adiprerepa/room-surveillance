@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="rpicppserver"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\proto\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/aditya/Projects/room-surveilance/raspberry-cpp-server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/aditya/Projects/room-surveilance/raspberry-cpp-server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/aditya/Projects/room-surveilance/raspberry-cpp-server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rpiserver">
+				<Option output="/home/aditya/Projects/room-surveilance/raspberry-cpp-server/rpiserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aditya/Projects/room-surveilance/raspberry-cpp-server"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aditya/Projects/room-surveilance/raspberry-cpp-server"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/Makefile&quot;  VERBOSE=1 rpiserver"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rpiserver/fast">
+				<Option output="/home/aditya/Projects/room-surveilance/raspberry-cpp-server/rpiserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aditya/Projects/room-surveilance/raspberry-cpp-server"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aditya/Projects/room-surveilance/raspberry-cpp-server"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/Makefile&quot;  VERBOSE=1 rpiserver/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="proto">
+				<Option output="/home/aditya/Projects/room-surveilance/raspberry-cpp-server/proto/libproto.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aditya/Projects/room-surveilance/raspberry-cpp-server/proto"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/proto/Makefile&quot;  VERBOSE=1 proto"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/proto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/proto/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/proto/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="proto/fast">
+				<Option output="/home/aditya/Projects/room-surveilance/raspberry-cpp-server/proto/libproto.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aditya/Projects/room-surveilance/raspberry-cpp-server/proto"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/proto/Makefile&quot;  VERBOSE=1 proto/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/proto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/proto/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/aditya/Projects/room-surveilance/raspberry-cpp-server/proto/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/aditya/Projects/room-surveilance/raspberry-cpp-server/proto/activity_interface.pb.cc">
+			<Option target="proto"/>
+		</Unit>
+		<Unit filename="/home/aditya/Projects/room-surveilance/raspberry-cpp-server/proto/activity_interface.pb.h">
+			<Option target="proto"/>
+		</Unit>
+		<Unit filename="/home/aditya/Projects/room-surveilance/raspberry-cpp-server/proto/activity_interface.pb.h.rule">
+			<Option target="proto"/>
+		</Unit>
+		<Unit filename="/home/aditya/Projects/room-surveilance/raspberry-cpp-server/src/esp_client.cc">
+			<Option target="rpiserver"/>
+		</Unit>
+		<Unit filename="/home/aditya/Projects/room-surveilance/raspberry-cpp-server/src/esp_client.h">
+			<Option target="rpiserver"/>
+		</Unit>
+		<Unit filename="/home/aditya/Projects/room-surveilance/raspberry-cpp-server/src/main.cc">
+			<Option target="rpiserver"/>
+		</Unit>
+		<Unit filename="/home/aditya/Projects/room-surveilance/raspberry-cpp-server/src/utils.cc">
+			<Option target="rpiserver"/>
+		</Unit>
+		<Unit filename="/home/aditya/Projects/room-surveilance/raspberry-cpp-server/src/utils.h">
+			<Option target="rpiserver"/>
+		</Unit>
+		<Unit filename="/home/aditya/Projects/room-surveilance/raspberry-cpp-server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/aditya/Projects/room-surveilance/raspberry-cpp-server/proto/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\proto\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
