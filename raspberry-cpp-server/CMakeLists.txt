@@ -1,10 +1,12 @@
 project(rpicppserver)
-cmake_minimum_required(VERSION 2.8.9)
+cmake_minimum_required(VERSION 2.8)
 SET(CMAKE_CXX_FLAGS "-g -Wall -Werror -std=c++11")
+set(CMAKE_MODULE_PATH
+        "/usr/bin/cmake/${CMAKE_MODULE_PATH}")
 INCLUDE(FindProtobuf)
-set(raspicam_DIR "/usr/local/lib/cmake")
+set(raspicam_DIR "/snap/clion/114/bin/cmake/linux/bin/cmake")
 FIND_PACKAGE(Protobuf REQUIRED)
-find_package(raspicam REQUIRED)
+find_package( raspicam REQUIRED )
 ADD_SUBDIRECTORY(proto)
 
 file(GLOB SOURCES src/*.cc)
