@@ -12,3 +12,4 @@ _deps
 proto/Makefile
 proto/CMakeFiles
 proto/cmake_install.cmake
+proto/libproto.a
