@@ -123,6 +123,19 @@ rpiserver/fast:
 	$(MAKE) -f CMakeFiles/rpiserver.dir/build.make CMakeFiles/rpiserver.dir/build
 .PHONY : rpiserver/fast
 
+#=============================================================================
+# Target rules for targets named proto
+
+# Build rule for target.
+proto: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 proto
+.PHONY : proto
+
+# fast build rule for target.
+proto/fast:
+	$(MAKE) -f proto/CMakeFiles/proto.dir/build.make proto/CMakeFiles/proto.dir/build
+.PHONY : proto/fast
+
 src/main.o: src/main.cc.o
 
 .PHONY : src/main.o
@@ -150,33 +163,6 @@ src/main.cc.s:
 	$(MAKE) -f CMakeFiles/rpiserver.dir/build.make CMakeFiles/rpiserver.dir/src/main.cc.s
 .PHONY : src/main.cc.s
 
-src/utils.o: src/utils.cc.o
-
-.PHONY : src/utils.o
-
-# target to build an object file
-src/utils.cc.o:
-	$(MAKE) -f CMakeFiles/rpiserver.dir/build.make CMakeFiles/rpiserver.dir/src/utils.cc.o
-.PHONY : src/utils.cc.o
-
-src/utils.i: src/utils.cc.i
-
-.PHONY : src/utils.i
-
-# target to preprocess a source file
-src/utils.cc.i:
-	$(MAKE) -f CMakeFiles/rpiserver.dir/build.make CMakeFiles/rpiserver.dir/src/utils.cc.i
-.PHONY : src/utils.cc.i
-
-src/utils.s: src/utils.cc.s
-
-.PHONY : src/utils.s
-
-# target to generate assembly for a file
-src/utils.cc.s:
-	$(MAKE) -f CMakeFiles/rpiserver.dir/build.make CMakeFiles/rpiserver.dir/src/utils.cc.s
-.PHONY : src/utils.cc.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +172,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... rpiserver"
+	@echo "... proto"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/utils.o"
-	@echo "... src/utils.i"
-	@echo "... src/utils.s"
 .PHONY : help
 
 
